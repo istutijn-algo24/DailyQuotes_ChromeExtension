@@ -42,15 +42,7 @@ The Daily Quotes Chrome Extension is built using the following technologies:
 - The quotes are sourced from various reputable quote databases and APIs.
 - Voice assistant functionality is implemented using text-to-speech technology.
 
-## Contributing
-
-Contributions to the Daily Quotes Chrome Extension project are always welcome. If you find any bugs, have suggestions for new features, or want to improve the extension in any way, feel free to submit a pull request.
 
 
-## Author
 
-[Priyanka Loura](https://github.com/priyankaloura)
-
-
-https://github.com/priyankaloura/Daily-Quotes---Chrome-Extension/assets/101576566/a10a987d-2b1e-4641-8fd7-3e3d7db51bdc
 
