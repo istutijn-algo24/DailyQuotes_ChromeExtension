@@ -1,12 +1,19 @@
 {
-    "name": "Daily Quotes!",
-    "version": "0.0.1",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_icon": "logo.png"
-    },
-    "icons": {
-        "1000": "logo.png"
-    }
+  "name": "Daily Quotes!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Get inspired every time you open a new tab with random quotes.",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "popup.html"
+  },
+  "permissions": [],
+  "action": {
+    "default_icon": "logo.png"
+  }
 }
+
