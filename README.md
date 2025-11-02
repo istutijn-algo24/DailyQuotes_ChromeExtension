@@ -6,7 +6,7 @@ The Daily Quotes Chrome Extension is designed to bring inspiration and wisdom to
 
 ## Features
 
-- **Daily Random Quotes**: Every time you open a new tab, the extension displays a new quote from its extensive collection, providing you with a dose of inspiration and wisdom.
+- **Daily Random Quotes**: Every time you clicks the extension icon, the extension displays a new quote from its extensive collection, providing you with a dose of inspiration and wisdom.
 
 - **Voice Assistant**: With the voice assistant feature, the extension can read the quote aloud to you, making it convenient to receive your daily dose of inspiration while you're busy or on the go.
 
@@ -26,7 +26,7 @@ To install the Daily Quotes Chrome Extension, follow these steps:
 
 ## Usage
 
-Once the extension is installed, every time you open a new tab, it will display a new random quote. You can listen to the quote using the voice assistant feature, copy it to your clipboard, or share it on Twitter.
+Once the extension is installed, every time you clicks the extension icon, it will display a new random quote. You can listen to the quote using the voice assistant feature, copy it to your clipboard, or share it on Twitter.
 
 ## Technologies Used
 
