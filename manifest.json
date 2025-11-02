@@ -8,7 +8,7 @@
     "48": "logo.png",
     "128": "logo.png"
   },
-  "permissions": [
+ "host_permissions": [
   "https://api.quotable.io/*"
 ],
 
