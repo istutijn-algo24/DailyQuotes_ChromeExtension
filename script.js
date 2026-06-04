@@ -9,7 +9,7 @@ synth = speechSynthesis;
 function randomQuote(){
     quoteBtn.classList.add("loading");
     quoteBtn.innerText = "Loading Quote...";
-    fetch("https://api.quotable.io/random")
+    fetch("https://zenquotes.io/api/quotes")
         .then(response => response.json())
         .then(result => {
             quoteText.innerText = result.content;
