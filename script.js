@@ -6,24 +6,29 @@ copyBtn = document.querySelector(".copy"),
 twitterBtn = document.querySelector(".twitter"),
 synth = speechSynthesis;
 
-function randomQuote(){
+function randomQuote() {
     quoteBtn.classList.add("loading");
     quoteBtn.innerText = "Loading Quote...";
-    fetch("https://api.quotable.io/*")
+
+    fetch("https://zenquotes.io/api/random")
         .then(response => response.json())
         .then(result => {
-            quoteText.innerText = result.content;
-            authorName.innerText = result.author;
+            quoteText.innerText = result[0].q;
+            authorName.innerText = result[0].a;
+
             quoteBtn.classList.remove("loading");
             quoteBtn.innerText = "New Quote";
         })
-        .catch(() => {
+        .catch(error => {
+            console.error(error);
+
             quoteText.innerText = "Failed to load quote. Please try again!";
+            authorName.innerText = "";
+
             quoteBtn.classList.remove("loading");
             quoteBtn.innerText = "New Quote";
         });
 }
-
 
 speechBtn.addEventListener("click", ()=>{
     if(!quoteBtn.classList.contains("loading")){
