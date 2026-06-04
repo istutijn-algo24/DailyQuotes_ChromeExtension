@@ -9,7 +9,7 @@
     "128": "logo.png"
   },
  "host_permissions": [
-  "https://zenquotes.io/api/quotes"
+  "https://api.quotable.io/*"
 ],
 
   "action": {
