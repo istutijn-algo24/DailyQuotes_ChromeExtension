@@ -1,4 +1,4 @@
-# Daily Quotes Chrome Extension
+<img width="838" height="807" alt="image" src="https://github.com/user-attachments/assets/92457318-3d82-40e4-9daa-aa012e96b905" /># Daily Quotes Chrome Extension
 
 ![Daily Quotes Chrome Extension](logo.png)
 
@@ -43,6 +43,7 @@ The Daily Quotes Chrome Extension is built using the following technologies:
 - Voice assistant functionality is implemented using text-to-speech technology.
 
 
+<img width="838" height="807" alt="image" src="https://github.com/user-attachments/assets/bb532833-eedc-4754-8d2c-3f6e09b57574" />
 
 
 
